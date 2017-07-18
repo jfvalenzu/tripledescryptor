@@ -1,7 +1,6 @@
-# tripledescryptor
+# tripleDEScryptor
 
 [![Developer](https://img.shields.io/badge/Developer-jfvalenzu-red.svg)](https://github.com/jfvalenzu)
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Simple Java utility for encrypt text strings using Triple DES, giving output as Base64. 
 
@@ -42,5 +41,7 @@ $ java -Dpass=yourplaintext -jar target/tripledescryptor-0.0.1-SNAPSHOT.jar --ke
 ```
 
 ### Licence
-tripledescryptor is released under license GPL Version 3 (https://github.com/jfvalenzu/tripledescryptor/blob/master/LICENSE).
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+tripleDEScryptor is released under license GPL Version 3 (https://github.com/jfvalenzu/tripledescryptor/blob/master/LICENSE).
 
