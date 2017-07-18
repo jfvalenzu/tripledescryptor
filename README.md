@@ -6,7 +6,7 @@ Simple Java utility for encrypt text strings using Triple DES, giving output as 
 
 ### Requirements
 
-* It requires [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) or higger.
+* It requires [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) or higher.
 
 
 # Running
