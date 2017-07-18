@@ -17,18 +17,22 @@ import javax.crypto.NoSuchPaddingException;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 /**
  * TripleDES decorator class, adapted for use with Spring Boot
  * 
- * @author fvalenzuela
+ * @author jfvalenzu
  *
  */
+@Component
+@Service
 public class TripleDESDecorator implements InitializingBean {
 
 	private static TripleDESDecorator instance;
 
-	private final static Logger logger = org.slf4j.LoggerFactory.getLogger(TripleDES.class);
+	private final static Logger logger = org.slf4j.LoggerFactory.getLogger(TripleDESDecorator.class);
 
 	@Value("${keyPath}")
 	private String keyPath;

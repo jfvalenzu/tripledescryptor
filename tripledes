@@ -41,4 +41,4 @@ else
 		fi
 	fi
 
-java -Dpass=$PASS -jar target/tripledescryptor-0.0.1-SNAPSHOT.jar --keyPath=$2 --ivPath=$3
+java -Dpass=$1 -jar target/tripledescryptor-0.0.1-SNAPSHOT.jar --keyPath=$2 --ivPath=$3
