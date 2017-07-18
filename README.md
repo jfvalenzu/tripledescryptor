@@ -16,7 +16,7 @@ Simple Java utility for encrypt text strings using Triple DES, giving output as 
 USAGE: ./tripledes [text_to_encrypt] [keyfile.bg] [vectorfile.bg]
 
 ```
-#Example
+# Example
 
 ```sh
 ./tripledes iwanttoencryptthistext key.bg iv.bg
@@ -30,13 +30,13 @@ TripleDEScryptor uses [Spring Boot] (https://projects.spring.io/spring-boot/) an
 recommended use the [STS] (https://spring.io/tools/sts/) IDE.
 
 
-#Build
+# Build
 ```sh
 $ mvn clean compile
 $ mvn package
 ```
 
-#Run
+# Running the jar
 ```sh
 $ java -Dpass=yourplaintext -jar target/tripledescryptor-0.0.1-SNAPSHOT.jar --keyPath=key.bg --ivPath=iv.bg
 ```
