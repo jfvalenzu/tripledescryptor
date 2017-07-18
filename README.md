@@ -1,6 +1,6 @@
 # tripledescryptor
 
-[![Developer](https://img.shields.io/badge/Developer-Nightonke-red.svg)](https://github.com/jfvalenzu)
+[![Developer](https://img.shields.io/badge/Developer-jfvalenzu-red.svg)](https://github.com/jfvalenzu)
 [![Download](https://api.bintray.com/packages/nightonke/maven/boommenu/images/download.svg)](https://github.com/jfvalenzu/tripledescryptor/archive/master.zip)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
